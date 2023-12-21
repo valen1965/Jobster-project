@@ -72,5 +72,5 @@ const Wrapper = styled.aside`
   .active .icon {
     color: var(--primary-500);
   }
-`
+`;
 export default Wrapper
