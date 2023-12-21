@@ -29,13 +29,13 @@ const Wrapper = styled.article`
     background: ${(props) => props.bcg};
     border-radius: var(--borderRadius);
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     svg {
       font-size: 2rem;
       color: ${(props) => props.color};
     }
   }
-`
+`;
 
 export default Wrapper
